@@ -1,2 +1,4 @@
 # HTML-AND-CSS-PROJECTS
- this is where i will store my HTML and CSS projects
+ INTRODUCTION:
+ This repository is where I will store all of my HTML and CSS projects
+ Technology used: HTML, CSS 
