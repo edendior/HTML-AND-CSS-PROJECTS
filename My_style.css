@@ -1,0 +1,22 @@
+body {
+        background-color: pink;
+        color: black;
+	text-decoration: underline;
+	font-weight: bold;
+        font-size: large;
+	text-align: center;
+	
+     }
+p {
+	background-color: DeepPink;
+	color: LavenderBlush;
+	font-style: italic;
+	text-decoration: none !important;
+	font-size: 40px;
+}
+	
+.middle_1 {
+       background-color: black;
+       color: pink;
+       font-size: medium;
+}
