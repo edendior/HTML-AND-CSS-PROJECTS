@@ -1,0 +1,56 @@
+html {
+    overflow-x: hidden;
+    /*prevents the browser from displaying
+    a left to right scroll bar as a result of negative margins*/
+    scroll-behavior: smooth;
+    /*smooth scrolling when the user
+    clicks on a bookmark link*/
+}
+
+/*NAVBAR*/
+
+/*BODY*/
+body{
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    font-size: 50px;
+    color: hotpink;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 80px 0 0 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+form {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 20px;
+    border: 2px solid lightpink;
+    border-radius: 8px;
+    font-size: 10px;
+}
