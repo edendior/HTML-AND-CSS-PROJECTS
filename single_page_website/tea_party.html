@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tea Party</title>
+    <link rel="stylesheet" href="tea_party_style.css">
+    <script src="JS/tea_party_js.js"></script>
+</head>
+<body>
+    <h1>&hearts; Welcome to the tea party! &hearts;</h1>
+<!--LIGHTBOX-->
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="images/honey_tea.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/oolong_tea.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/rose_tea.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/honey_tea_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/oolong_tea_wide.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/rose_tea_wide.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="images/honey_tea.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/oolong_tea.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/rose_tea.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+  </div>
+</div>
+<!--BODY TEXT-->
+    <h2>My Favorite Teas</h2>
+  <ul>
+    <li>Oolong Tea</li>
+    <li>Rose Chai</li>
+    <li>Honey Chamomile</li>
+  </ul>
+
+  <h2>How to Make Your Tea</h2>
+  <ol>
+    <li>boil water</li>
+    <li>pick your tea </li>
+    <li>steep it</li>
+    <li>add honey or sugar and milk!</li>
+  </ol>
+
+  <p>Have a lovely day! &#128578;</p>
+
+</body>
+</html>
